@@ -37,7 +37,7 @@ export default function Category({ data }) {
       <CategoryItems>
         {drinks.map(drink => {
           return (                
-            <Link href={`http://localhost:3000/catalog/drink/${drink.strDrink}`} key={drink.idDrink}>
+            <Link href={`/catalog/drink/${drink.strDrink}`} key={drink.idDrink}>
               <div className="item">
                 <div className="item-image">
                   <img src={drink.strDrinkThumb} alt={drink.strDrinkThumb}/>

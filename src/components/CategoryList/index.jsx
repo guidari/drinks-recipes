@@ -8,7 +8,7 @@ export default function CategoryList() {
     <Container>
       {apiCategory.map(prop => {
         return (                  
-          <Link href={`http://localhost:3000/catalog/categories/${prop.title}`}>
+          <Link href={`/catalog/categories/${prop.title}`}>
             <div key={prop.title} style={{
               flex: 1,
               backgroundImage: `url(${prop.img})`,
