@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import { CategoryItems, SectionInfo } from './style'
+import { CategoryItems, SectionInfo } from '../../../styles/categories/category'
 import Link from 'next/link';
 import Navbar from '../../../components/Navbar/Navbar';
 import Footer from '../../../components/Footer/index'

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Navbar from '../../../components/Navbar/Navbar';
 import Footer from '../../../components/Footer';
-import { DrinkContainer } from './style'
+import { DrinkContainer } from '../../../styles/categories/drink'
 
 
 export default function Drink({ data }) {
