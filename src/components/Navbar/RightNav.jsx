@@ -31,9 +31,9 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <Ul open={open}>
-      <Link href="/"><a ><li>Home</li></a></Link>
-      <li>About Us</li>
-      <li>Contact Us</li>
+      <Link href="/"><a><li>Home</li></a></Link>
+      <Link href="/about"><a><li>About Us</li></a></Link>
+      <Link href="/contact"><a><li>Contact Us</li></a></Link>
     </Ul>
   )
 }

@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #100300;
+    background: #312e38;
     color:#FFF;
     overflow-x: hidden;
   }

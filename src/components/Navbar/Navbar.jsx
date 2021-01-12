@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import styled from 'styled-components';
 import Burger from './Burger';
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        <h1>Drink Recipes</h1>
+        <Link href="/"><a><h1>Drink Recipes</h1></a></Link>
       </div>
       <Burger />
     </Nav>
